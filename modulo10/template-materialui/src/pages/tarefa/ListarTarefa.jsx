@@ -92,17 +92,17 @@ const ListarTarefa = () => {
             <TableContainer component={Paper}>
             <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
                 <TableHead>
-                <TableRow>
-                    <TableCell>#</TableCell>
-                    <TableCell>Título</TableCell>
-                    <TableCell align="right">Descrição</TableCell>
-                    <TableCell align="right">Data de Início</TableCell>
-                    <TableCell align="right">Data de Finalização</TableCell>
-                    <TableCell align="right">Status</TableCell>
-                    <TableCell align="right">Recurso</TableCell>
-                    <TableCell align="left"></TableCell>
-                    <TableCell align="left"></TableCell>
-                </TableRow>
+                  <TableRow>
+                      <TableCell>#</TableCell>
+                      <TableCell>Título</TableCell>
+                      <TableCell align="right">Descrição</TableCell>
+                      <TableCell align="right">Data de Início</TableCell>
+                      <TableCell align="right">Data de Finalização</TableCell>
+                      <TableCell align="right">Status</TableCell>
+                      <TableCell align="right">Recurso</TableCell>
+                      <TableCell align="left"></TableCell>
+                      <TableCell align="left"></TableCell>
+                  </TableRow>
                 </TableHead>
                 <TableBody>
                 {tarefas.map((row, indice) => (
