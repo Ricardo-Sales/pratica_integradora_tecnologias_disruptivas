@@ -11,7 +11,6 @@ const Login = () => {
         <Input id="login nome" aria-describedby="login_nome_helper_text" value={login} 
           onChange={e => { setLogin(e.target.value) }} />
         <FormHelperText id="login_helper_text">Login.</FormHelperText>
-        <Box></Box>
         <Input id="tarefa_titulo" aria-describedby="user_helper_text" value={usuario} 
           onChange={e => { setUsuario(e.target.value) }} />
         <FormHelperText id="usuario_helper_text">Usuario: </FormHelperText>
